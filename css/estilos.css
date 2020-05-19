@@ -21,7 +21,7 @@
 }
 
 .colortext .anim-shape:nth-child(1) {
-  fill: #0E1826;
+  fill: #236ed8;
 }
 
 .colortext .anim-shape:nth-child(2) {
@@ -97,12 +97,12 @@ svg {
 		}
 
 		.social{
-			
-			width:40px;
+			width:35px;
 			position:fixed;
 			top:50px;
 			right:0;
       font-size: 250%
+     
 		}
 
 		/* Extra centrado vertical*/
@@ -116,10 +116,26 @@ svg {
      }
 		}
 
-.social :hover {
-   
-    text-decoration: none;
-    -webkit-transition:all -500ms ease;
-    -o-transition:all -500ms ease;
-    transition:all -500ms ease; /* Establecemos una transición a todas las propiedades */
-  }
+.sombra
+{
+  height: 30px;
+  width: 30px;
+   -moz-box-shadow: 2px 3px 16px #000000;
+      -webkit-box-shadow: 2px 3px 16px #000000;
+      box-shadow: 2px 3px 16px #000000;
+        border-radius: 180px 180px 180px 180px;
+}
+.sombra :hover
+{
+ -moz-box-shadow: 2px 3px 16px red;
+      -webkit-box-shadow: 2px 3px 16px red;
+      box-shadow: 2px 3px 16px red; 
+        border-radius: 180px 180px 180px 180px;
+}
+
+.crecer
+{
+  clear: both;
+overflow: hidden;
+height: 1%;
+}

@@ -10,3 +10,8 @@ function jsNota(frecuencia){
         o.start(0);
         g.gain.exponentialRampToValueAtTime(0.00001,context.currentTime +1.5);
     }
+
+    // MENSAJES
+function alertMessage(){
+     alert ("Esperalo\nProximamente .")
+}
